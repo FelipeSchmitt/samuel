@@ -7,9 +7,9 @@ header{
     background-color: darkred;
 }
 header img{
-    padding: 5px;
-    width: 60px;
-    height: 50px;
+    padding: 12px;
+    width: 70px;
+    height: 65px;
     cursor: pointer;
 }
 #menu-drop{
