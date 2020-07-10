@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/index-style.css">
     <title>Agência de Casamentos Samuel Rodrigues</title>
 </head>
-<body onload="slider.js/slide1()">
+<body onload="slide1()">
     <header>
             <img src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" onclick="menudrop()">
             <div id="menu-drop" style="visibility: hidden;">
@@ -37,7 +37,24 @@
     <div id="slider">
         <img id="banner">
     </div>
-        <script src="slider.js"></script>
+    <script>
+        
+        var tempo = 3000;
+
+function slide1(){
+    document.getElementById("slider").src="images/slide1.jpg"
+    setTimeout("slide2()", tempo)
+}
+function slide2(){
+    document.getElementById("banner").src="images/slide2.jpg"
+    setTimeout("slide3()", tempo)
+}
+function slide3(){
+    document.getElementById("banner").src="images/slide3.jpg"
+    setTimeout("slide1()", tempo)
+}
+            
+</script>
 <div class="grid">
 <div class="text1">
     <h2>Who is Samuel</h2>
