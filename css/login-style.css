@@ -1,0 +1,78 @@
+body{
+    background-image: url(https://saywhat-now.com/wp-content/uploads/2019/11/perfoming-on-stage-with-mic.jpg);
+    background-size: 110%;
+    background-attachment: fixed;
+}
+
+#form{
+    display: block;
+    margin: auto;
+    width: 30%;
+    background-color: whitesmoke;
+    height: 650px;
+    border-radius: 7px;
+}
+h1{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    font-weight: Helvetica;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+label{
+    margin: 15px;
+    display: block;
+    font-size: 24px;
+    font-family: Arial;
+    padding-top: 30px;
+}
+input{
+    margin: 15px;
+    width: 80%;
+    height: 25px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    border-color: brown;
+    font-size: 24px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+input:focus{    
+    border-color: orange;
+}
+#section-password{
+    display: grid;
+    grid-template-columns: 1.6fr 0.4fr;
+}
+#section-password #password{
+    width: 100%;
+}
+button{
+    display: block;
+    background-color: rgba(165, 42, 42, 0.986);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0 0 10px black;
+}
+
+@media screen and (max-width: 65em){
+    body{
+        background-size: 400%;
+    }
+    #form{
+        width: 90%;
+    }
+}

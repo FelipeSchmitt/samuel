@@ -2,14 +2,14 @@ body{
     margin: 0;
 }
 header{
-    height: 90px;
+    height: 80px;
     width: 100%;
     background-color: darkred;
 }
 header img{
     padding: 10px;
-    width: 75px;
-    height: 70px;
+    width: 65px;
+    height: 60px;
     cursor: pointer;
 }
 #menu-drop{
@@ -22,6 +22,9 @@ header img{
     line-height: 70px;
     font-size: 26px;
     font-weight: 600;
+}
+#usericon{
+    float: right;
 }
 #box{
     background-color: teal;
